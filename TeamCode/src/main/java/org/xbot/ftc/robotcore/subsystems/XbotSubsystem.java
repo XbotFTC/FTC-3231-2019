@@ -24,5 +24,5 @@ public abstract class XbotSubsystem {
         this.opMode = opMode;
     }
 
-    public abstract void shutdownSubystem();
+    public abstract void shutdownSubsystem();
 }

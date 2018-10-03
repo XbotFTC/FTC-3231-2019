@@ -40,7 +40,7 @@ public class RobotSubsystemManager {
 
     public void stop() {
         for (XbotSubsystem subsystem : registeredSubsystemsMap.values())
-            subsystem.shutdownSubystem();
+            subsystem.shutdownSubsystem();
         initialized = false;
     }
 
